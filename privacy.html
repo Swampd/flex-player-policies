@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>flex-player — Privacy Policy</title>
+<link rel="stylesheet" href="policy.css">
+<main>
+<nav aria-label="Policies"><a href="terms.html">Terms</a><a href="privacy.html" aria-current="page">Privacy</a></nav>
+<p class="draft">Review draft · October 16, 2026 · Not yet published or effective</p>
+<h1>Privacy Policy</h1>
+<p>Face operates flex-player for the Project Conspiracy Discord community. This policy covers the bot and embedded player.</p>
+<h2>Information the player uses</h2>
+<ul>
+<li><strong>Discord identity and permissions:</strong> user ID, display name, server and channel IDs, membership, roles, and voice-channel presence. These establish access, DJ permissions, and who requested a song.</li>
+<li><strong>Requests and playback:</strong> submitted search text and links, selected media IDs, titles, durations, queue order, requester identity, playback position, and commands. These power searches, shared playback, recovery, and prevention of duplicate commands.</li>
+<li><strong>Authentication and diagnostics:</strong> short-lived authorization information, session tokens, and technical playback events such as source IDs, timing, and error categories. Network connections also necessarily expose connection information to the services receiving them.</li>
+</ul>
+<p>The app does not request your Discord password, read general channel conversations, or record participants’ voice audio. Its Activity sign-in requests the Discord <code>identify</code> scope. The app does not add advertising, analytics trackers, authentication cookies, or browser local-storage tokens.</p>
+<h2>Who receives information</h2>
+<p>Authorized community members can see shared queue selections and requester names. Discord receives interactions and player messages and carries voice playback. YouTube receives search queries and media requests from the player’s server; the app does not deliberately attach Discord identity to those source requests. Text you put in a search is transmitted as part of that search.</p>
+<p>The operator can access the saved queue and diagnostic files to run and support the service. flex-player does not sell personal information or use it for advertising. Discord and Google/YouTube handle information under their own <a href="https://discord.com/privacy">Discord privacy policy</a> and <a href="https://policies.google.com/privacy">Google privacy policy</a>.</p>
+<h2>Storage and retention</h2>
+<p>The operating server is currently the operator’s Windows computer. The current queue, requester IDs and names, playback state, and settings are saved so playback can recover after a restart. They have no automatic age-based expiry; entries change as the queue changes. Clearing a queue is not a complete data-deletion request.</p>
+<p>Duplicate-command records contain user IDs and queue snapshots. Records older than 24 hours are removed on the next successful state save, so they can remain longer during inactivity. Search previews expire after about five minutes. Bulk previews have short in-memory lifetimes, generally five minutes after preparation or fifteen minutes while being prepared; cleanup can wait for subsequent use.</p>
+<p>App authentication sessions expire after fifteen minutes and are held in memory. The app does not persist OAuth tokens in its database or browser storage. Technical logs have no automatic age-based cleanup. Any operator-held copies must also be considered when fulfilling a deletion request. Discord’s copies of messages and its own records follow Discord’s controls and retention rules.</p>
+<h2>Your choices and requests</h2>
+<p>Stop using the player at any time. For access, correction, deletion, privacy questions, or a security report, email <a href="mailto:faceesquire@gmail.com">faceesquire@gmail.com</a>. Support and privacy requests are handled by email, not Discord direct messages. Include your Discord user ID and the request, but never send passwords or tokens. Requests are handled manually; the operator may verify that you control the account.</p>
+<p>Deletion requests cover operator-controlled records associated with you, including retained queue snapshots and applicable copies. The operator will explain any data that must be retained by law and any limitation involving another service. Depending on your location, you may also have rights to object, restrict processing, obtain a copy, or complain to a privacy regulator.</p>
+<h2>Changes</h2>
+<p>Material changes to data handling, including hosting providers, will be reflected here and announced in the community before taking effect. See also the <a href="terms.html">Terms of Service</a>.</p>
+</main>
+</html>
