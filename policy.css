@@ -1,0 +1,11 @@
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.65; }
+body { margin: 0; background: #10131a; color: #e6e9f0; }
+main { max-width: 760px; margin: auto; padding: 32px 24px 72px; }
+nav { display: flex; gap: 24px; margin-bottom: 32px; }
+a { color: #a7c7ff; text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid #a7c7ff; outline-offset: 4px; }
+h1 { font-size: clamp(2rem, 7vw, 3rem); line-height: 1.2; }
+h2 { font-size: 1.3rem; margin-top: 32px; }
+li { margin-bottom: 12px; }
+.draft { border-left: 3px solid #ebc66c; padding: 10px 16px; background: #25231d; color: #f1d79b; }
+@media print { body { background: white; color: black; } a { color: #234c86; } .draft { background: white; color: black; } }
